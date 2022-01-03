@@ -298,7 +298,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: rgb(218, 118, 176) !important;
+			color: rgb(175, 93, 141)!important;
 		}
 
 	strong, b {
@@ -314,7 +314,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(220, 220, 220, 0.25);
+		background: rgb(175, 93, 141);
 		border-color: #eeeeee;
 	}
 
@@ -2215,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px rgb(218, 118, 176);
-			color: rgb(218, 118, 176) !important;
+			box-shadow: inset 0 0 0 2px rgb(175, 93, 141);
+			color: rgb(175, 93, 141) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgb(218, 118, 176);
+				background-color:rgb(175, 93, 141);
 			}
 
 /* Form */
@@ -2491,7 +2491,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: rgb(218, 118, 176);
+			border-color: rgb(175, 93, 141);
 		}
 
 	select {
@@ -2526,7 +2526,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: rgb(218, 118, 176);
+		border-color: rgb(175, 93, 141);
 	}
 
 	::-webkit-input-placeholder {
@@ -2891,7 +2891,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: rgb(218, 118, 176);
+		color: rgb(175, 93, 141);
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2899,7 +2899,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px rgb(218, 118, 176);
+		box-shadow: inset 0 0 0 2px rgb(175, 93, 141);
 	}
 
 /* Section/Article */
@@ -3198,14 +3198,14 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: rgb(218, 118, 176) !important;
-			border-color: rgb(218, 118, 176);
+			color: rgb(112, 112, 112) !important;
+			border-color: rgb(112, 112, 112);
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: rgb(218, 118, 176);
+				border-left-color:rgb(112, 112, 112);
 			}
 
 		.pagination a.active {
@@ -3320,12 +3320,12 @@ input, select, textarea {
 
 		#intro a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: black;
 		}
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: rgb(218, 118, 176) !important;
+				color: black !important;
 			}
 
 		#intro strong, #intro b {
@@ -3364,8 +3364,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px rgb(218, 118, 176);
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px black;
+				color:black !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3383,7 +3383,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: rgb(218, 118, 176);
+					background-color: black;
 				}
 
 		#intro h1 {
@@ -3578,8 +3578,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: rgb(218, 118, 176) !important;
-				color: rgb(218, 118, 176) !important;
+				border-color: black !important;
+				color: black !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3633,7 +3633,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: rgb(218, 118, 176);
+			color: black;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3641,7 +3641,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px rgb(218, 118, 176);
+			box-shadow: inset 0 0 0 2px black;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3650,7 +3650,7 @@ input, select, textarea {
 
 		#nav a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: black;
 		}
 
 			#nav a:hover {
@@ -3731,7 +3731,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: rgb(218, 118, 176) !important;
+							color: rgb(175, 93, 141) !important;
 						}
 
 		#nav ul.icons {
@@ -4019,7 +4019,7 @@ input, select, textarea {
 			#footer button:hover,
 			#footer .button:hover {
 				box-shadow: inset 0 0 0 2px rgb(218, 118, 176);
-				color: #18bfef !important;
+				color: rgb(175, 93, 141) !important;
 			}
 
 			#footer input[type="submit"].primary,
