@@ -2592,6 +2592,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 500px;
+		height: 500px;
 	}
 
 		.image img {
